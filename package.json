@@ -1,0 +1,39 @@
+{
+  "name": "frigate-nvr-installer",
+  "version": "1.0.0",
+  "description": "One-command Frigate NVR installer for Alma Linux servers. Fleet tracking & surveillance video server.",
+  "author": "Batuhan Ayrıbaş <batuhan@rootcastle.co>",
+  "license": "MIT",
+  "homepage": "https://github.com/rootcastleco/rtc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootcastleco/rtc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rootcastleco/rtc/issues"
+  },
+  "keywords": [
+    "frigate",
+    "nvr",
+    "surveillance",
+    "fleet",
+    "tracking",
+    "video",
+    "camera",
+    "rtsp",
+    "docker",
+    "alma-linux",
+    "installer"
+  ],
+  "bin": {
+    "frigate-nvr-installer": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "install_frigate.sh",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
