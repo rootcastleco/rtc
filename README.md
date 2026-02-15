@@ -21,7 +21,14 @@ sudo npm install -g frigate-nvr-installer
 sudo frigate-nvr-installer
 ```
 
-### Option 3 — curl
+### Option 3 — GitHub Packages
+
+```bash
+npm install -g @rootcastleco/rtc --registry=https://npm.pkg.github.com
+sudo frigate-nvr-installer
+```
+
+### Option 4 — curl
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/rootcastleco/rtc/main/install_frigate.sh | sudo bash
