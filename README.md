@@ -1,10 +1,27 @@
 # 🎥 Frigate NVR — Fleet Video Server
 
+[![npm version](https://img.shields.io/npm/v/frigate-nvr-installer.svg)](https://www.npmjs.com/package/frigate-nvr-installer)
+[![npm downloads](https://img.shields.io/npm/dm/frigate-nvr-installer.svg)](https://www.npmjs.com/package/frigate-nvr-installer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 One-command [Frigate NVR](https://frigate.video/) installer for **Alma Linux** servers. Designed for fleet tracking and surveillance systems.
 
 ## ⚡ Quick Install
 
-Run this single command on your Alma Linux server as root:
+### Option 1 — npx (recommended)
+
+```bash
+sudo npx frigate-nvr-installer
+```
+
+### Option 2 — npm global
+
+```bash
+sudo npm install -g frigate-nvr-installer
+sudo frigate-nvr-installer
+```
+
+### Option 3 — curl
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/rootcastleco/rtc/main/install_frigate.sh | sudo bash
